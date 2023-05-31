@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header class="contenedor header">
+    <img src="images/logo.svg" alt="Logotipo">
+    <nav class="nav">
+      <a href="#" class="nav__enlace">Features</a>
+      <a href="#" class="nav__enlace">Team</a>
+      <a href="#" class="nav__enlace">Sign In</a>
+    </nav>
+  </header>
+
+  <div class="contenedor flex">
+    <div class="flex__img">
+      <img src="images/illustration-1.svg" alt="Primera Imagen">
+    </div>
+    <div class="flex__contenido">
+      <h1 class="titulo">All your files in one secure location, accessible anywhere.</h1>
+      <p class="parrafo">
+        Fylo stores your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends,
+        family, and co-workers.
+      </p>
+      <form action="#" class="form">
+        <input type="email" name="email" class="form__input" placeholder="Enter your email">
+        <input type="submit" value="Get Started" class="form__submit">
+      </form>
+    </div>
+  </div>
+
+  <main>
+    <div class="contenedor flex-2">
+      <div class="flex__img">
+        <img src="images/illustration-2.svg" alt="Segunda imagen">
+      </div>
+      <div class="flex__contenido">
+        <h2 class="titulo">Stay productive, wherever you are</h2>
+        <p class="parrafo text-left">
+          Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <p class="parrafo text-left">
+          Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!
+        </p>
+        <a href="#" class="icono">
+          <p class="text-green">See how Fylo works</p>
+          <img class="icono__img" src="images/icon-arrow.svg" alt="Icono de flecha">
+        </a>
+        <p class="text-transparente"></p>
+        <!-- Tarjeta -->
+        <div class="tarjeta">
+          <img src="images/icon-quotes.svg" alt="" class="tarjeta__blockuote">
+          <p class="tarjeta__texto">
+            Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <div class="datos">
+            <img src="images/avatar-testimonial.jpg" alt="" class="perfil">
+            <div class="datos__flex">
+              <h3 class="nombre">Kyle Burton</h3>
+              <p class="puesto">Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="azul-claro">
+    <div class="contenedor abajo__flex">
+      <div class="contenido-footer">
+        <h2 class="footer-titulo">Get early access today</h2>
+        <p class="footer-parrafo">
+          It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </div>
+      <form action="#" class="form__footer">
+        <input type="email" name="email" class="form__input__footer" placeholder="Enter your email">
+        <input type="submit" value="Get Started" class="form__submit__footer">
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="contenedor">
+      <img class="footer__img" src="images/logo-footer.svg" alt="Logo de un footer">
+      <div class="footer__flex">
+        <div class="direcciones">
+          <div class="telefono">
+            <img src="images/icon-phone.svg" alt="Icono" class="telefono__icono">
+            <p>
+              Phone: +1-543-123-4567
+            </p>
+          </div>
+          <div class="correo">
+            <img src="images/icon-email.svg" alt="Icono" class="correo__icono">
+            <p>
+              example@fylo.com
+            </p>
+          </div>
+        </div>
+        <div class="lista">
+          <div class="lista__left">
+            <a href="#" class="enlace__left">About Us</a>
+            <a href="#" class="enlace__left">Jobs</a>
+            <a href="#" class="enlace__left">Press</a>
+            <a href="#" class="enlace__left">Blog</a>
+          </div>
+          <div class="lista__right">
+            <a href="#" class="enlace__right">Contact Us</a>
+            <a href="#" class="enlace__right">Terms</a>
+            <a href="#" class="enlace__right">Privacy</a>
+          </div>
+        </div>
+        <div class="redes">
+          <a href="#">
+            <img src="images/facebook.png" alt="Icono de facebook">
+          </a>
+          <a href="#">
+            <img src="images/twitter.png" alt="Icono de twitter">
+          </a>
+          <a href="#">
+            <img src="images/instagram.png" alt="Icono de instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
